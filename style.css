@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -136,13 +136,57 @@ a,
     margin: 0;
 }
 
-.quote-container {
+.quote-wrapper {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.quote-container p {
+.quote-container {
+    padding: 0;
+    margin: 125px 225px 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.quote-container .quote {
     color: #1f2937;
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 600;
     font-style: italic;
+    padding: 0 36px 0 65px;
+    margin: 0;
+}
+
+.quote-container .author {
+    font-size: 22px;
+    font-weight: 900;
+    padding: 12px 0 0 0;
+    margin: 0 50px 0 0;
+}
+
+.signup-wrapper {
+    padding: 0;
+    margin: 125px 225px 125px;
+}
+
+.signup-content {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bordered-signup {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 0;
+    padding: 6px 26px 6px;   
 }
