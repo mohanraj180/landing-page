@@ -168,25 +168,44 @@ a,
 }
 
 .signup-wrapper {
-    padding: 0;
-    margin: 125px 225px 125px;
-}
-
-.signup-content {
     background-color: #3882f6;
     color: white;
     border-radius: 12px;
+    padding: 0;
+    margin: 125px 225px 125px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.call {
+    margin: 55px 160px 55px 55px;
+    padding: 0;
+}
+
+.call p {
+    padding: 0;
+    margin: 0;
+}
+
+.callto-action {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sub-call {
+    font-size: 14px;
 }
 
 .bordered-signup {
     background-color: #3882f6;
     color: white;
+    font-size: 16px;
     font-weight: bold;
-    border: 2px solid white;
+    border: 2.5px solid white;
     border-radius: 8px;
-    margin: 0;
+    margin: 0 55px 0 0;
     padding: 6px 26px 6px;   
+    justify-content: end;
+    flex: 0 1 auto;
 }
